@@ -192,7 +192,7 @@ const Checkout = () => {
                                 required
                                 value={formData.name}
                                 onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                                placeholder="e.g. Gwyneth Paltrow"
+                                placeholder="e.g. Junie Bird"
                                 className="w-full bg-background border border-border px-4 py-3 focus:outline-none focus:border-primary transition-colors text-foreground"
                             />
                         </div>
