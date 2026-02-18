@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        <Link to="/" className="font-heading text-2xl font-semibold tracking-wide text-foreground">
+        <Link to="/" className="font-heading text-3xl font-semibold tracking-wide text-foreground">
           Junebird
         </Link>
 
