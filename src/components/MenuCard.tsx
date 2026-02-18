@@ -38,7 +38,7 @@ const MenuCard = ({
         </div>
       </div>
       <div className="p-4">
-        <h3 className="font-heading text-lg font-semibold text-card-foreground leading-tight">
+        <h3 className="font-heading text-2xl font-bold text-card-foreground leading-tight">
           {name}
         </h3>
       </div>
