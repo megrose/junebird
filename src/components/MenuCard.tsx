@@ -35,8 +35,6 @@ const MenuCard = ({
           loading="lazy"
         />
         <div className="absolute top-3 left-3 flex gap-2">
-          <span className="badge-category">{category}</span>
-          {isNew && <span className="badge-new">New</span>}
         </div>
       </div>
       <div className="p-4">
