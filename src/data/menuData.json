@@ -577,7 +577,7 @@
     "name": "Chicken & Rice",
     "category": "Soups and Curries",
     "categoryOrder": 5,
-    "image": "",
+    "image": "/images/chicken-and-rice.webp",
     "isNew": false,
     "description": "Comforting chicken and rice soup.",
     "price": 1.0
@@ -698,7 +698,7 @@
     "name": "Little Gem Lettuce Salad",
     "category": "Salads",
     "categoryOrder": 6,
-    "image": "",
+    "image": "/images/little-gem-salad.jpg",
     "isNew": false,
     "description": "Little gem lettuce with watermelon radish, persian cucumbers, chives, and lemon dill vinaigrette. Gluten free, vegan, kid friendly.",
     "price": 1.0
@@ -709,7 +709,7 @@
     "name": "Baby Kale Salad",
     "category": "Salads",
     "categoryOrder": 6,
-    "image": "",
+    "image": "/images/baby-kale-salad.jpeg",
     "isNew": false,
     "description": "Baby kale with romaine, shredded carrots, cherry tomatoes, avocado, and ginger carrot vinaigrette. Gluten free, vegan.",
     "price": 1.0
@@ -720,7 +720,7 @@
     "name": "Quinoa Salad",
     "category": "Salads",
     "categoryOrder": 6,
-    "image": "",
+    "image": "/images/quinoa-salad.webp",
     "isNew": false,
     "description": "Quinoa with cucumber, tomatoes, medjool dates, mint, feta, crispy chickpeas, and toasted cumin vinaigrette. Gluten free, vegetarian.",
     "price": 1.0
@@ -731,7 +731,7 @@
     "name": "Nicoise Salad",
     "category": "Salads",
     "categoryOrder": 6,
-    "image": "",
+    "image": "/images/nicoise-salad.png",
     "isNew": false,
     "description": "Green beans, radish, tomato, potato, gigante beans, hard-boiled egg, olives, and lemon vinaigrette. Gluten free, kid friendly.",
     "price": 1.0
