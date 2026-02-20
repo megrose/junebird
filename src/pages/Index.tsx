@@ -1,4 +1,5 @@
 import { useState, useMemo } from "react";
+import { useSearchParams } from "react-router-dom";
 import MenuCard from "@/components/MenuCard";
 import { motion } from "framer-motion";
 import { useMenuData } from "@/hooks/useMenuData";
@@ -9,6 +10,8 @@ const INITIAL_LOAD = 6;
 const LOAD_MORE_COUNT = 6;
 
 const Index = () => {
+  const [searchParams] = useSearchParams();
+  const variant = searchParams.get("v") === "b" ? "b" : "a";
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
   const [visibleCount, setVisibleCount] = useState(INITIAL_LOAD);
   const { menuItems, categories, loading, error } = useMenuData();
@@ -124,8 +127,10 @@ const Index = () => {
                 name={item.name}
                 category={item.category}
                 image={item.image}
+                description={item.description}
                 isNew={item.isNew}
                 index={index}
+                variant={variant}
               />
             ))}
           </div>

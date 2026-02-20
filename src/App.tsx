@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import ProductDetail from "@/pages/ProductDetail";
 import Checkout from "@/pages/Checkout";
 import NotFound from "./pages/NotFound";
+import Randomizer from "@/pages/Randomizer";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ScrollToTop from "@/components/ScrollToTop";
@@ -30,6 +31,7 @@ const App = () => {
           <AnimatePresence mode="wait">
             <Routes location={location} key={location.pathname}>
               <Route path="/" element={<Index />} />
+              <Route path="/go" element={<Randomizer />} />
               <Route path="/product/:slug" element={<ProductDetail />} />
               <Route path="/checkout" element={<Checkout />} />
               <Route path="*" element={<NotFound />} />
