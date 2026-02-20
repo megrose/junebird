@@ -1,8 +1,6 @@
 import { useState, useEffect } from "react";
-import { collection, getDocs, query, orderBy } from "firebase/firestore";
-import { db } from "@/firebaseConfig";
 import { MenuItem } from "@/data/menuItems";
-
+import menuData from "@/data/menuData.json";
 
 interface UseMenuDataReturn {
   menuItems: MenuItem[];
@@ -18,74 +16,50 @@ export const useMenuData = (): UseMenuDataReturn => {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    const fetchMenuData = async () => {
-      try {
-        setLoading(true);
-        setError(null);
+    try {
+      setLoading(true);
+      setError(null);
 
-        // 1. Fetch all category documents from the 'menu' collection
-        const menuCollection = collection(db, "menu");
-        const categorySnapshot = await getDocs(menuCollection);
+      // Load from local JSON
+      const items: MenuItem[] = (menuData as any[]).map((item) => ({
+        id: item.id,
+        slug: item.slug || item.id,
+        name: item.name,
+        category: item.category,
+        categoryOrder: item.categoryOrder ?? 99,
+        image: item.image,
+        isNew: item.isNew ?? false,
+        description: item.description,
+        price: item.price ?? 0,
+      }));
 
-        const allItems: MenuItem[] = [];
-        const categoryNames: string[] = ["All"];
+      // Extract unique categories in order
+      const categorySet = new Set<string>();
+      const orderedCategories: { name: string; order: number }[] = [];
 
-        // Sort category docs by categoryOrder
-        const sortedCategoryDocs = categorySnapshot.docs
-          .map((doc) => ({ id: doc.id, ...doc.data() }))
-          .sort(
-            (a: any, b: any) =>
-              (a.categoryOrder ?? 99) - (b.categoryOrder ?? 99),
-          );
-
-        // 2. For each category, fetch its 'items' subcollection
-        for (const categoryDoc of sortedCategoryDocs) {
-          const categoryName = (categoryDoc as any).category ?? categoryDoc.id;
-          categoryNames.push(categoryName);
-
-          const itemsCollection = collection(
-            db,
-            "menu",
-            categoryDoc.id,
-            "items",
-          );
-          const itemsSnapshot = await getDocs(itemsCollection);
-
-          const items: MenuItem[] = itemsSnapshot.docs.map((itemDoc) => {
-            const data = itemDoc.data();
-
-            return {
-              id: itemDoc.id,
-              slug: data.slug ?? "",
-              name: data.name ?? "",
-              category: categoryName, // Category comes from the parent document
-              categoryOrder: (categoryDoc as any).categoryOrder ?? 99,
-              image: data.image_url ?? "",
-              isNew: data.isNew ?? false,
-              description: data.description ?? "",
-              price:
-                typeof data.price === "string"
-                  ? parseFloat(data.price) || 0
-                  : Number(data.price) || 0,
-            };
+      items.forEach((item) => {
+        if (!categorySet.has(item.category)) {
+          categorySet.add(item.category);
+          orderedCategories.push({
+            name: item.category,
+            order: item.categoryOrder ?? 99,
           });
-
-          allItems.push(...items);
         }
+      });
 
-        setCategories(categoryNames);
-        setMenuItems(allItems);
-      } catch (err) {
-        console.error("Error fetching menu data:", err);
-        setError(
-          err instanceof Error ? err.message : "Failed to load menu items.",
-        );
-      } finally {
-        setLoading(false);
-      }
-    };
+      orderedCategories.sort((a, b) => a.order - b.order);
+      const categoryNames = ["All", ...orderedCategories.map((c) => c.name)];
 
-    fetchMenuData();
+      setCategories(categoryNames);
+      setMenuItems(items);
+    } catch (err) {
+      console.error("Error loading menu data:", err);
+      setError(
+        err instanceof Error ? err.message : "Failed to load menu items."
+      );
+    } finally {
+      setLoading(false);
+    }
   }, []);
 
   return { menuItems, categories, loading, error };
