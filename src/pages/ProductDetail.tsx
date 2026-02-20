@@ -1,4 +1,4 @@
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams, useNavigate, useSearchParams } from "react-router-dom";
 import { useMenuData } from "@/hooks/useMenuData";
 import { ChevronLeft, ShoppingBag, Plus, Minus } from "lucide-react";
 import { motion } from "framer-motion";
@@ -33,6 +33,9 @@ const ProductDetailSkeleton = () => (
 const ProductDetail = () => {
   const { slug } = useParams();
   const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
+  const v = searchParams.get("v");
+  const qs = v ? `?v=${v}` : "";
   const [quantity, setQuantity] = useState(1);
   const addItem = useCart((state) => state.addItem);
   const { menuItems, loading, error } = useMenuData();
@@ -47,7 +50,7 @@ const ProductDetail = () => {
       <div className="min-h-screen flex flex-col items-center justify-center">
         <p className="text-lg text-red-500 mb-4">Error: {error}</p>
         <button
-          onClick={() => navigate("/")}
+          onClick={() => navigate(`/${qs}`)}
           className="text-primary hover:underline"
         >
           Back to Menu
@@ -61,7 +64,7 @@ const ProductDetail = () => {
       <div className="min-h-screen flex flex-col items-center justify-center">
         <h1 className="text-2xl font-bold mb-4">Product Not Found</h1>
         <button
-          onClick={() => navigate("/")}
+          onClick={() => navigate(`/${qs}`)}
           className="text-primary hover:underline"
         >
           Back to Menu
@@ -85,7 +88,7 @@ const ProductDetail = () => {
     >
       <main className="max-w-7xl mx-auto px-6 py-12">
         <button
-          onClick={() => navigate("/")}
+          onClick={() => navigate(`/${qs}`)}
           className="flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors mb-8 group"
         >
           <ChevronLeft

@@ -1,11 +1,13 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import { motion } from "framer-motion";
 import { ChevronLeft, CheckCircle2, Plus, Minus } from "lucide-react";
 import { useCart } from "@/hooks/useCart";
 
 const Checkout = () => {
     const navigate = useNavigate();
+    const [searchParams] = useSearchParams();
+    const variant = searchParams.get("v") || "none";
     const { items, getTotalPrice, updateQuantity, clearCart } = useCart();
     const totalPrice = getTotalPrice();
 
@@ -33,6 +35,7 @@ const Checkout = () => {
                         itemName: item.name,
                         quantity: item.quantity,
                         category: item.category,
+                        version: variant,
                         timestamp: serverTimestamp(),
                     });
 
@@ -45,7 +48,8 @@ const Checkout = () => {
                             Timestamp: now,
                             Item: item.name,
                             Quantity: item.quantity,
-                            Category: item.category
+                            Category: item.category,
+                            Version: variant
                         })
                     });
 
