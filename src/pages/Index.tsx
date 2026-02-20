@@ -5,8 +5,12 @@ import { useMenuData } from "@/hooks/useMenuData";
 import { Skeleton } from "@/components/ui/skeleton";
 import { ArrowLeft } from "lucide-react";
 
+const INITIAL_LOAD = 6;
+const LOAD_MORE_COUNT = 6;
+
 const Index = () => {
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
+  const [visibleCount, setVisibleCount] = useState(INITIAL_LOAD);
   const { menuItems, categories, loading, error } = useMenuData();
 
   // Categories without "All"
@@ -22,6 +26,7 @@ const Index = () => {
 
   const handleCategoryClick = (category: string) => {
     setActiveCategory(category);
+    setVisibleCount(INITIAL_LOAD);
   };
 
   const handleBackToCategories = () => {
@@ -111,7 +116,7 @@ const Index = () => {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filteredItems.map((item, index) => (
+            {filteredItems.slice(0, visibleCount).map((item, index) => (
               <MenuCard
                 key={item.id}
                 id={item.id}
@@ -124,6 +129,16 @@ const Index = () => {
               />
             ))}
           </div>
+          {visibleCount < filteredItems.length && (
+            <div className="flex justify-center mt-10">
+              <button
+                onClick={() => setVisibleCount((prev) => prev + LOAD_MORE_COUNT)}
+                className="px-8 py-3 rounded-full border border-border text-sm font-medium text-foreground hover:bg-secondary transition-colors duration-200 cursor-pointer"
+              >
+                Show more ({filteredItems.length - visibleCount} remaining)
+              </button>
+            </div>
+          )}
           {filteredItems.length === 0 && (
             <p className="text-center text-muted-foreground py-20 text-lg">
               No items found in this category.
