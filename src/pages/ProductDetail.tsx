@@ -103,7 +103,7 @@ const ProductDetail = () => {
             <img
               src={product.image}
               alt={product.name}
-              className="w-full h-full object-cover"
+              className={`w-full h-full ${product.slug === "chickpea-avgolemono" ? "object-contain bg-muted" : "object-cover"}`}
             />
             <div className="absolute top-4 left-4 flex gap-2">
               <span className="badge-category">{product.category}</span>

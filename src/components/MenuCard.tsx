@@ -39,7 +39,7 @@ const MenuCard = ({
           <img
             src={image}
             alt={name}
-            className="menu-card-image group-hover:scale-105"
+            className={`menu-card-image group-hover:scale-105${slug === "chickpea-avgolemono" ? " object-contain bg-muted" : ""}`}
             loading="lazy"
           />
         </div>
