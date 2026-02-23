@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
 import MenuCard from "@/components/MenuCard";
 import { motion } from "framer-motion";
@@ -15,6 +15,16 @@ const Index = () => {
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
   const [visibleCount, setVisibleCount] = useState(INITIAL_LOAD);
   const { menuItems, categories, loading, error } = useMenuData();
+
+  useEffect(() => {
+    const handleHome = () => {
+      setActiveCategory(null);
+      setVisibleCount(INITIAL_LOAD);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    };
+    window.addEventListener("junebird:home", handleHome);
+    return () => window.removeEventListener("junebird:home", handleHome);
+  }, []);
 
   // Categories without "All"
   const categoryList = useMemo(
