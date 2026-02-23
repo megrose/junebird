@@ -148,7 +148,7 @@ const Index = () => {
             <div className="flex justify-center mt-10">
               <button
                 onClick={() => setVisibleCount((prev) => prev + LOAD_MORE_COUNT)}
-                className="px-8 py-3 rounded-full bg-primary text-primary-foreground text-sm font-medium hover:opacity-90 transition-opacity duration-200 cursor-pointer"
+                className="px-10 py-4 rounded-full bg-primary text-primary-foreground text-base font-medium hover:opacity-90 transition-opacity duration-200 cursor-pointer"
               >
                 Show more ({filteredItems.length - visibleCount} remaining)
               </button>
