@@ -7,62 +7,7 @@
     "categoryOrder": 1,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/Rotisserie%20chicken.png?alt=media&token=3e0f4fe2-086f-470c-9238-e5356bdbaf5c",
     "isNew": false,
-    "description": "Herb-seasoned and slow-roasted until juicy and golden, finished with crisped skin and classic comfort flavor. Gluten free, kid friendly.",
-    "price": 1
-  },
-  {
-    "id": "miso-salmon",
-    "slug": "miso-salmon",
-    "name": "Miso salmon",
-    "category": "Proteins",
-    "categoryOrder": 1,
-    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/miso%20salmon.png?alt=media&token=36bbc8b0-2d05-4b43-abbd-f2e7f3092468",
-    "isNew": false,
-    "description": "Sustainably sourced salmon glazed with white miso for a rich, savory finish. Gluten free, soy, fish, sesame.",
-    "price": 1
-  },
-  {
-    "id": "grilled-salmon-lightly-seasoned",
-    "slug": "grilled-salmon-lightly-seasoned",
-    "name": "Grilled salmon lightly seasoned",
-    "category": "Proteins",
-    "categoryOrder": 1,
-    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/grilled%20salmon%20lightly%20seasoned.png?alt=media&token=c3c494d9-f160-4270-9a8a-45d071efecd2",
-    "isNew": false,
-    "description": "Simply grilled salmon, lightly seasoned to let the natural flavor shine",
-    "price": 1
-  },
-  {
-    "id": "chili-tofu",
-    "slug": "chili-tofu",
-    "name": "Chili tofu",
-    "category": "Proteins",
-    "categoryOrder": 1,
-    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/chili%20tofu.png?alt=media&token=a1e2347c-7cac-46f1-b8e4-e56f0b4d3a2c",
-    "isNew": false,
-    "description": "Crispy tofu tossed in a savory chili sauce with subtle heat and depth.",
-    "price": 1
-  },
-  {
-    "id": "chilled-edamame-tofu",
-    "slug": "chilled-edamame-tofu",
-    "name": "Chilled edamame tofu",
-    "category": "Proteins",
-    "categoryOrder": 1,
-    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/Chilled%20Edamame%20Tofu.png?alt=media&token=b6571fd4-e539-4d65-864e-2853a3debf29",
-    "isNew": false,
-    "description": "Silky tofu topped with chilled edamame and light seasoning for a refreshing, plant-based bite.",
-    "price": 1
-  },
-  {
-    "id": "tamari-tofu-steak",
-    "slug": "tamari-tofu-steak",
-    "name": "Tamari tofu steak",
-    "category": "Proteins",
-    "categoryOrder": 1,
-    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/tamari%20tofu%20steak.png?alt=media&token=364df2fa-56f7-4f75-bcfd-1c07546fa241",
-    "isNew": false,
-    "description": "Thick-cut tofu marinated in tamari, seared until crisp on the outside and tender within. Soy, vegan, kid friendly.",
+    "description": "Herb-seasoned and slow-roasted until juicy and golden, finished with crisped skin and classic comfort flavor. Gluten free",
     "price": 1
   },
   {
@@ -73,7 +18,7 @@
     "categoryOrder": 1,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/teriyaki%20chicken.png?alt=media&token=7b731159-1dee-4e42-b10e-ae8d328a7c87",
     "isNew": false,
-    "description": "Grilled chicken glazed with a house teriyaki sauce, balancing sweet and savory notes.",
+    "description": "Grilled chicken glazed with a house teriyaki sauce, balancing sweet and savory notes. Gluten free, Soy",
     "price": 1
   },
   {
@@ -84,7 +29,62 @@
     "categoryOrder": 1,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/grilled%20chicken%20breast.png?alt=media&token=14185d46-430c-485d-b03b-19ffe91ddd40",
     "isNew": false,
-    "description": "Lean, marinated chicken breast grilled until perfectly charred and juicy.",
+    "description": "Lean, marinated chicken breast grilled until perfectly charred and juicy. Gluten free",
+    "price": 1
+  },
+  {
+    "id": "miso-black-cod",
+    "slug": "miso-black-cod",
+    "name": "Miso black cod",
+    "category": "Proteins",
+    "categoryOrder": 1,
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/miso%20salmon.png?alt=media&token=36bbc8b0-2d05-4b43-abbd-f2e7f3092468",
+    "isNew": false,
+    "description": "Sustainably sourced cod glazed with white miso for a rich, savory finish. Gluten free, Soy, Fish, Sesame",
+    "price": 1
+  },
+  {
+    "id": "grilled-salmon-lightly-seasoned",
+    "slug": "grilled-salmon-lightly-seasoned",
+    "name": "Grilled salmon lightly seasoned",
+    "category": "Proteins",
+    "categoryOrder": 1,
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/grilled%20salmon%20lightly%20seasoned.png?alt=media&token=c3c494d9-f160-4270-9a8a-45d071efecd2",
+    "isNew": false,
+    "description": "Simply grilled salmon, lightly seasoned to let the natural flavor shine. Gluten free, Fish",
+    "price": 1
+  },
+  {
+    "id": "chili-tofu",
+    "slug": "chili-tofu",
+    "name": "Chili tofu",
+    "category": "Proteins",
+    "categoryOrder": 1,
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/chili%20tofu.png?alt=media&token=a1e2347c-7cac-46f1-b8e4-e56f0b4d3a2c",
+    "isNew": false,
+    "description": "Crispy tofu tossed in a savory chili sauce with subtle heat and depth. Vegan, Gluten Free, Soy",
+    "price": 1
+  },
+  {
+    "id": "chilled-edamame-tofu",
+    "slug": "chilled-edamame-tofu",
+    "name": "Chilled edamame tofu",
+    "category": "Proteins",
+    "categoryOrder": 1,
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/Chilled%20Edamame%20Tofu.png?alt=media&token=b6571fd4-e539-4d65-864e-2853a3debf29",
+    "isNew": false,
+    "description": "Silky tofu topped with chilled edamame and light seasoning for a refreshing, plant-based bite. Vegan, Gluten free, Soy, Sesame",
+    "price": 1
+  },
+  {
+    "id": "tamari-tofu-steak",
+    "slug": "tamari-tofu-steak",
+    "name": "Tamari tofu steak",
+    "category": "Proteins",
+    "categoryOrder": 1,
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/tamari%20tofu%20steak.png?alt=media&token=364df2fa-56f7-4f75-bcfd-1c07546fa241",
+    "isNew": false,
+    "description": "Thick-cut tofu marinated in tamari, seared until crisp on the outside and tender within. Vegan, Gluten free, Soy",
     "price": 1
   },
   {
@@ -106,18 +106,7 @@
     "categoryOrder": 1,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/Santa%20Maria%20Tri%20tip.png?alt=media&token=e3a3c44c-e4c1-40d5-ba3b-17e884c13ad5",
     "isNew": false,
-    "description": "Marinated in traditional Santa Maria spices and grilled over open flame for bold, smoky depth.",
-    "price": 1
-  },
-  {
-    "id": "turkey-burger-with-gf-bun",
-    "slug": "turkey-burger-with-gf-bun",
-    "name": "Turkey burger with GF bun",
-    "category": "Proteins",
-    "categoryOrder": 1,
-    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/turkey%20burger%20with%20gf%20bun.png?alt=media&token=be9e34be-5c53-41f0-9390-e4379ec1e0ca",
-    "isNew": false,
-    "description": "Juicy turkey patty served on a gluten-free bun, clean, satisfying, and protein-forward.",
+    "description": "Marinated in traditional Santa Maria spices and grilled over open flame for bold, smoky depth. Gluten free",
     "price": 1
   },
   {
@@ -128,18 +117,18 @@
     "categoryOrder": 1,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/Chicken%20tenders.png?alt=media&token=d6f279be-74e9-407d-a8a7-85370b3a8369",
     "isNew": false,
-    "description": "Crispy chicken tenders made with organic whole chicken breast. Fresh and unprocessed. Kid friendly",
+    "description": "Crispy chicken tenders made with organic whole chicken breast. Fresh and unprocessed. Gluten, Egg",
     "price": 1
   },
   {
-    "id": "kale-and-sweet-potatoe",
-    "slug": "kale-and-sweet-potatoe",
-    "name": "Kale and sweet potatoe",
+    "id": "kale-and-sweet-potatoes",
+    "slug": "kale-and-sweet-potatoes",
+    "name": "Kale and sweet potatoes",
     "category": "Veggies",
     "categoryOrder": 2,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/kale%20and%20sweet%20potato.png?alt=media&token=96774363-f90f-4f05-8160-f952008b1475",
     "isNew": false,
-    "description": "Hearty kale tossed with roasted sweet potatoes for a balanced, nutrient-dense side.",
+    "description": "Hearty kale tossed with roasted sweet potatoes for a balanced, nutrient-dense side. Vegan, Gluten free",
     "price": 1
   },
   {
@@ -150,7 +139,7 @@
     "categoryOrder": 2,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/Roasted%20Sage%20Delicata%20Squash.png?alt=media&token=fae950d4-8d09-4bc6-a299-0c1a6e2929c2",
     "isNew": false,
-    "description": "Sweet delicata squash roasted with fresh sage for warm, seasonal flavor. Gluten free, vegan.",
+    "description": "Sweet delicata squash roasted with fresh sage for warm, seasonal flavor. Vegan, Gluten free",
     "price": 1
   },
   {
@@ -161,7 +150,7 @@
     "categoryOrder": 2,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/Roasted%20sweet%20potatoes.png?alt=media&token=c3392c76-51c9-4544-9dae-975b57a7ecff",
     "isNew": false,
-    "description": "Perfectly roasted sweet potatoes with a soft center and caramelized exterior. Gluten free, vegan, kid friendly.",
+    "description": "Perfectly roasted sweet potatoes with a soft center and caramelized exterior. Vegan, Gluten free",
     "price": 1
   },
   {
@@ -172,7 +161,7 @@
     "categoryOrder": 2,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/Sesame%20green%20beans.png?alt=media&token=259a27cc-57e9-4b64-acba-62bdc65a56ea",
     "isNew": false,
-    "description": "Crisp green beans tossed with toasted sesame oil. Sesame, gluten free, vegan, kid friendly.",
+    "description": "Crisp green beans tossed with toasted sesame oil. Vegan, Gluten free, Sesame",
     "price": 1
   },
   {
@@ -183,7 +172,7 @@
     "categoryOrder": 2,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/Turmeric%20cauliflower.png?alt=media&token=d2605ac9-cfc7-456f-aca1-1461affe103a",
     "isNew": false,
-    "description": "Roasted cauliflower infused with warming turmeric and gentle spice.",
+    "description": "Roasted cauliflower infused with warming turmeric and gentle spice. Vegan, Gluten free",
     "price": 1
   },
   {
@@ -194,7 +183,7 @@
     "categoryOrder": 2,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/grilled%20eggplant.png?alt=media&token=c6bf4273-6f69-4180-9ca6-585022141bd3",
     "isNew": false,
-    "description": "Char-grilled eggplant with smoky depth and a silky finish.",
+    "description": "Char-grilled eggplant with smoky depth and a silky finish. Vegan, Gluten free",
     "price": 1
   },
   {
@@ -205,18 +194,18 @@
     "categoryOrder": 2,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/roasted%20broccoli.png?alt=media&token=0ea02a47-1395-4688-9a8f-a4173a1c3968",
     "isNew": false,
-    "description": "Oven-roasted until caramelized and crisp at the edges. Gluten free, vegan, kid friendly.",
+    "description": "Oven-roasted until caramelized and crisp at the edges. Vegan, Gluten free",
     "price": 1
   },
   {
-    "id": "roasted-brussle-sprouts",
-    "slug": "roasted-brussle-sprouts",
-    "name": "Roasted brussle sprouts",
+    "id": "roasted-brussel-sprouts",
+    "slug": "roasted-brussel-sprouts",
+    "name": "Roasted brussel sprouts",
     "category": "Veggies",
     "categoryOrder": 2,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/roasted%20brussel%20sprouts.png?alt=media&token=cd97fbe7-dd23-465c-9cb7-f25cb0ec962f",
     "isNew": false,
-    "description": "Crisp, golden Brussels sprouts with deep roasted flavor.",
+    "description": "Crisp, golden Brussels sprouts with deep roasted flavor. Vegan, Gluten free",
     "price": 1
   },
   {
@@ -227,7 +216,7 @@
     "categoryOrder": 2,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/roasted%20carrots.png?alt=media&token=aec9a02c-2709-4cea-ba1d-73c8c5128e4d",
     "isNew": false,
-    "description": "Slow-roasted carrots with natural sweetness and golden edges. Gluten free, vegetarian, kid friendly.",
+    "description": "Slow-roasted carrots with natural sweetness and golden edges. Vegan, Gluten free",
     "price": 1
   },
   {
@@ -238,7 +227,7 @@
     "categoryOrder": 2,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/half%20perfect%20avocado.png?alt=media&token=faa5e468-0c84-4ce2-9806-786d0df7d386",
     "isNew": false,
-    "description": "Ripe, creamy avocado served simply.",
+    "description": "Ripe, creamy avocado served simply. Vegan, Gluten free",
     "price": 1
   },
   {
@@ -249,7 +238,7 @@
     "categoryOrder": 2,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/sliced%20apples.png?alt=media&token=1e03388c-0f02-4879-8d52-db6ce3147243",
     "isNew": false,
-    "description": "Crisp apple slices, lightly sweet and refreshing.",
+    "description": "Crisp apple slices, lightly sweet and refreshing. Vegan, Gluten free",
     "price": 1
   },
   {
@@ -260,7 +249,7 @@
     "categoryOrder": 2,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/sliced%20cucumbers.png?alt=media&token=79fd5c84-3353-4e40-b662-b09510ce221b",
     "isNew": false,
-    "description": "Fresh, crisp cucumbers — clean and refreshing.",
+    "description": "Fresh, crisp cucumbers — clean and refreshing. Vegan, Gluten free",
     "price": 1
   },
   {
@@ -282,7 +271,7 @@
     "categoryOrder": 2,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/Beets%20%26%20Citrus%20Vinaigrette.png?alt=media&token=0d230d04-c60d-4dcd-a0b1-98c3882bca64",
     "isNew": false,
-    "description": "Beets with olive oil, sea salt, shallots, maple syrup, orange juice, and balsamic vinegar. Gluten free, vegan, kid friendly.",
+    "description": "Beets with olive oil, sea salt, shallots, maple syrup, orange juice, and balsamic vinegar. Gluten free, Vegan",
     "price": 1
   },
   {
@@ -308,6 +297,28 @@
     "price": 1
   },
   {
+    "id": "cauliflower-mash-with-parmesan",
+    "slug": "cauliflower-mash-with-parmesan",
+    "name": "Cauliflower mash with parmesan",
+    "category": "Veggies",
+    "categoryOrder": 2,
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/Creamy-Mashed-Cauliflower-9-500x375.jpg?alt=media&token=4f62d7c7-d220-4c46-930d-a5689626f339",
+    "isNew": false,
+    "description": "Roasted cauliflower puréed with garlic, extra virgin olive oil, butter, a touch of cream, aged parmesan. Vegetarian, Gluten free, Dairy",
+    "price": 1
+  },
+  {
+    "id": "lentils-with-celery-carrots-and-herbs",
+    "slug": "lentils-with-celery-carrots-and-herbs",
+    "name": "Lentils with celery, carrots and herbs",
+    "category": "Veggies",
+    "categoryOrder": 2,
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/lentils%20with%20carrots%26%20celery.jpg?alt=media&token=84e46617-14ba-46f0-b211-d356479f28cc",
+    "isNew": false,
+    "description": "Simmered green lentils, carrots, celery, with extra virgin olive oil. Vegan, Gluten free",
+    "price": 1
+  },
+  {
     "id": "couscous-salad",
     "slug": "couscous-salad",
     "name": "Couscous salad",
@@ -315,7 +326,7 @@
     "categoryOrder": 3,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/couscous%20salad.png?alt=media&token=0730f502-ee0f-4d0b-91db-da00a6f9d3f8",
     "isNew": false,
-    "description": "Light couscous tossed with fresh herbs and bright flavors.",
+    "description": "Light couscous tossed with fresh herbs and bright flavors. Vegan, Gluten",
     "price": 1
   },
   {
@@ -326,7 +337,7 @@
     "categoryOrder": 3,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/garlic%20noodles.png?alt=media&token=7099e5f3-dea6-4f01-8e57-ba445884e784",
     "isNew": false,
-    "description": "Silky noodles sautéed with garlic and savory umami notes.",
+    "description": "Silky noodles sautéed with garlic, chili oil, tamari and savory umami notes. Vegan, Gluten, Soy",
     "price": 1
   },
   {
@@ -337,7 +348,7 @@
     "categoryOrder": 3,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/coconut%20rice.png?alt=media&token=81d1d79d-d7a2-401f-be90-1109b7cbddd1",
     "isNew": false,
-    "description": "Fragrant rice gently cooked with coconut milk.",
+    "description": "Fragrant rice gently cooked with coconut milk. Vegan, Gluten free, Treenut",
     "price": 1
   },
   {
@@ -348,7 +359,7 @@
     "categoryOrder": 3,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/steamed%20brown%20rice.png?alt=media&token=439e1a92-7387-4b3c-8643-19e2e72b7e7d",
     "isNew": false,
-    "description": "Nutty, hearty brown rice, simple and grounding. Gluten free, vegan, kid friendly.",
+    "description": "Nutty, hearty brown rice, simple and grounding. Vegan, Gluten free",
     "price": 1
   },
   {
@@ -359,7 +370,7 @@
     "categoryOrder": 3,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/steamed%20jasmine%20rice.png?alt=media&token=a1b0b8f2-abbd-468f-9160-74e74f09a491",
     "isNew": false,
-    "description": "Light, fluffy jasmine rice steamed to perfection.",
+    "description": "Light, fluffy jasmine rice steamed to perfection. Vegan, Gluten free",
     "price": 1
   },
   {
@@ -370,7 +381,7 @@
     "categoryOrder": 3,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/turmeric%20rice.png?alt=media&token=7a5978fb-0b25-4768-a1cc-3dceaec92272",
     "isNew": false,
-    "description": "Golden rice infused with turmeric for warmth and color.",
+    "description": "Golden rice infused with turmeric for warmth and color. Vegan, Gluten free",
     "price": 1
   },
   {
@@ -381,7 +392,7 @@
     "categoryOrder": 3,
     "image": "/images/macaroni-cheese.jpg",
     "isNew": false,
-    "description": "Elbow pasta in a rich aged cheddar sauce. Gluten, dairy, vegetarian, kid friendly.",
+    "description": "Elbow pasta in a rich aged cheddar sauce. Vegetarian, Gluten, Dairy",
     "price": 1
   },
   {
@@ -392,7 +403,7 @@
     "categoryOrder": 3,
     "image": "/images/quinoa-pilaf.jpg",
     "isNew": false,
-    "description": "Quinoa pilaf with fresh herbs. Gluten free, vegan.",
+    "description": "Quinoa pilaf with fresh herbs. Vegan, Gluten free",
     "price": 1
   },
   {
@@ -403,7 +414,7 @@
     "categoryOrder": 4,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/green%20goddess%20naan%20pizza.png?alt=media&token=699f566a-9a56-4a55-ab9c-e87a0ef14347",
     "isNew": false,
-    "description": "Coconut curry sauce topped with vegetables for bold, warming flavor.",
+    "description": "Coconut curry sauce topped with vegetables for bold, warming flavor. Vegetarian, Gluten free, Dairy",
     "price": 1
   },
   {
@@ -414,7 +425,7 @@
     "categoryOrder": 4,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/green%20goddess%20naan%20pizza.png?alt=media&token=699f566a-9a56-4a55-ab9c-e87a0ef14347",
     "isNew": false,
-    "description": "Creamy green goddess sauce, vegetables, and melty cheese.",
+    "description": "Creamy green goddess sauce, vegetables, and melty cheese. Vegetarian, Gluten free, Dairy",
     "price": 1
   },
   {
@@ -425,7 +436,7 @@
     "categoryOrder": 4,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/magherita%20naan%20pizza.png?alt=media&token=11bd7dbb-1caa-4199-ad19-83be0cf42511",
     "isNew": false,
-    "description": "Tomato sauce, mozzarella, and fresh basil on warm naan.",
+    "description": "Tomato sauce, mozzarella, and fresh basil on warm naan. Vegetarian, Gluten free, Dairy",
     "price": 1
   },
   {
@@ -436,7 +447,7 @@
     "categoryOrder": 4,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/roasted%20vegetables%20and%20pesto%20pizza.png?alt=media&token=fd7cdf06-bbb9-45a6-a942-d65e20a47de3",
     "isNew": false,
-    "description": "Seasonal roasted vegetables layered with basil pesto and mozzarella.",
+    "description": "Seasonal roasted vegetables layered with basil pesto and mozzarella. Vegetarian, Gluten free, Dairy",
     "price": 1
   },
   {
@@ -447,7 +458,7 @@
     "categoryOrder": 4,
     "image": "/images/tandoori-paneer-naanza.jpg",
     "isNew": false,
-    "description": "Yukon potato, garam masala tomato sauce, yogurt, bell peppers, red onions, cilantro, mozzarella on naan.",
+    "description": "Yukon potato, garam masala tomato sauce, yogurt, bell peppers, red onions, cilantro, mozzarella on naan. Vegetarian, Gluten free, Dairy",
     "price": 1
   },
   {
@@ -458,7 +469,7 @@
     "categoryOrder": 4,
     "image": "/images/butter-chicken-naanza.jpg",
     "isNew": false,
-    "description": "Rich butter chicken sauce with tender chicken on warm naan.",
+    "description": "Rich butter chicken sauce with tender chicken on warm naan. Gluten, Dairy",
     "price": 1
   },
   {
@@ -469,7 +480,7 @@
     "categoryOrder": 5,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/yellow%20curry%20with%20tofu.png?alt=media&token=674d625f-5bb4-4d89-af0b-b6a729f7fd5b",
     "isNew": false,
-    "description": "Creamy yellow curry with tender tofu and vegetables.",
+    "description": "Creamy yellow curry with tender tofu and vegetables. Vegan, Gluten Free, Soy",
     "price": 1
   },
   {
@@ -480,7 +491,7 @@
     "categoryOrder": 5,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/Chicken%20tikka.png?alt=media&token=f78d0743-8731-45e8-93d0-b62e1b19c1dc",
     "isNew": false,
-    "description": "Spiced chicken in a rich, warming tikka sauce.",
+    "description": "Spiced chicken in a rich, warming tikka sauce. Gluten free, Dairy",
     "price": 1
   },
   {
@@ -491,7 +502,7 @@
     "categoryOrder": 5,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/green%20curry%20with%20shrimp.png?alt=media&token=9b7db88a-cc19-463b-a0ce-3f30f214e3e3",
     "isNew": false,
-    "description": "Aromatic green curry with shrimp and coconut milk.",
+    "description": "Aromatic green curry with shrimp and coconut milk. Gluten free, Shellfish",
     "price": 1
   },
   {
@@ -502,7 +513,7 @@
     "categoryOrder": 5,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/lentil%20soup.png?alt=media&token=de3de9cd-ab47-4453-8ee1-62a5da8a4471",
     "isNew": false,
-    "description": "Hearty lentils cooked with aromatic vegetables and spices.",
+    "description": "Hearty lentils cooked with aromatic vegetables and spices. Vegan, Gluten free",
     "price": 1
   },
   {
@@ -513,7 +524,7 @@
     "categoryOrder": 5,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/nana_s%20chicken%20noodle%20soup.png?alt=media&token=a11cb5e7-cb73-4bfc-9226-db20f3d1a926",
     "isNew": false,
-    "description": "Classic comfort — tender chicken, noodles, and rich broth.",
+    "description": "Classic comfort — tender chicken, noodles, and rich broth. Gluten, Egg",
     "price": 1
   },
   {
@@ -524,7 +535,7 @@
     "categoryOrder": 5,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/bone%20broth.png?alt=media&token=88f8ad0f-c410-4f41-995e-43649c267e33",
     "isNew": false,
-    "description": "Slow-simmered, collagen-rich bone broth.",
+    "description": "Slow-simmered, collagen-rich bone broth. Gluten free",
     "price": 1
   },
   {
@@ -535,7 +546,7 @@
     "categoryOrder": 5,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/bone%20broth.png?alt=media&token=88f8ad0f-c410-4f41-995e-43649c267e33",
     "isNew": false,
-    "description": "Nourishing vegetable broth packed with immunity-boosting ingredients.",
+    "description": "Nourishing vegetable broth packed with immunity-boosting ingredients. Vegan, Gluten free",
     "price": 1
   },
   {
@@ -546,7 +557,7 @@
     "categoryOrder": 5,
     "image": "/images/pho-broth.jpg",
     "isNew": false,
-    "description": "Traditional pho broth with rice noodles, bean sprouts, and Thai basil.",
+    "description": "Traditional pho broth with rice noodles, bean sprouts, and Thai basil. Gluten free",
     "price": 1
   },
   {
@@ -557,7 +568,7 @@
     "categoryOrder": 5,
     "image": "/images/chickpea-avgolemono.jpg",
     "isNew": false,
-    "description": "Greek-inspired lemon soup with chickpeas.",
+    "description": "Greek-inspired lemon soup with chickpeas. Vegan, Gluten free",
     "price": 1
   },
   {
@@ -568,7 +579,7 @@
     "categoryOrder": 5,
     "image": "/images/protein-tomato-basil.webp",
     "isNew": false,
-    "description": "Creamy tomato basil soup with added protein.",
+    "description": "Creamy tomato basil soup with added protein. Vegetarian, Gluten free, Dairy",
     "price": 1
   },
   {
@@ -579,40 +590,73 @@
     "categoryOrder": 5,
     "image": "/images/chicken-and-rice.webp",
     "isNew": false,
-    "description": "Comforting chicken and rice soup.",
+    "description": "Comforting chicken and rice soup. Gluten free",
     "price": 1
   },
   {
-    "id": "asian-chicken-salad",
-    "slug": "asian-chicken-salad",
-    "name": "Asian chicken salad",
+    "id": "little-gem-lettuce-salad",
+    "slug": "little-gem-lettuce-salad",
+    "name": "Little Gem lettuce salad",
     "category": "Salads",
     "categoryOrder": 6,
-    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/Asian%20chicken%20salad.png?alt=media&token=692f75e3-b8cb-4ec9-95bc-e86b995b36af",
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/little%20gem.png?alt=media&token=3665323a-181f-4f5e-8084-baf4b3cf7c58",
     "isNew": false,
-    "description": "Grilled chicken, crisp vegetables, and sesame-forward dressing.",
+    "description": "Little Gem Lettuce, watermelon radish, persian cucumbers, chives, parmesan with a lemon dill vinaigrette. See our proteins section for pairings. Vegetarian, Gluten free, Dairy",
     "price": 1
   },
   {
-    "id": "chicken-caesar-salad",
-    "slug": "chicken-caesar-salad",
-    "name": "Chicken Caesar salad",
+    "id": "baby-kale-salad",
+    "slug": "baby-kale-salad",
+    "name": "Baby Kale salad",
     "category": "Salads",
     "categoryOrder": 6,
-    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/chicken%20ceasar%20salad.png?alt=media&token=c2070af6-397c-4c0e-be7c-7548e715971e",
+    "image": "/images/baby-kale-salad.jpeg",
     "isNew": false,
-    "description": "Romaine, grilled chicken, shaved parmesan, and Caesar dressing.",
+    "description": "Baby kale with romaine, shredded carrots, cherry tomatoes, avocado, and ginger carrot vinaigrette. Vegan, Gluten free",
     "price": 1
   },
   {
-    "id": "chicken-chop-salad",
-    "slug": "chicken-chop-salad",
-    "name": "Chicken chop salad",
+    "id": "quinoa-salad",
+    "slug": "quinoa-salad",
+    "name": "Quinoa salad",
     "category": "Salads",
     "categoryOrder": 6,
-    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/Chicken%20chop%20salad.png?alt=media&token=43832fd0-5c48-44fa-b8cb-55b513dd17e1",
+    "image": "/images/quinoa-salad.webp",
     "isNew": false,
-    "description": "Chopped greens, grilled chicken, and classic house dressing.",
+    "description": "Quinoa with cucumber, tomatoes, medjool dates, mint, feta, crispy chickpeas, and toasted cumin vinaigrette. Vegetarian, Gluten free, Dairy",
+    "price": 1
+  },
+  {
+    "id": "caesar-salad",
+    "slug": "caesar-salad",
+    "name": "Caesar salad",
+    "category": "Salads",
+    "categoryOrder": 6,
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/ceasar%20saald.png?alt=media&token=b6ce36b0-35d4-4332-8169-7866bfd00716",
+    "isNew": false,
+    "description": "Romaine, shaved parmesan, homemade croutons and yogurt caesar dressing. Vegetarian, Gluten (Croutons), Dairy",
+    "price": 1
+  },
+  {
+    "id": "crunchy-asian-salad",
+    "slug": "crunchy-asian-salad",
+    "name": "Crunchy Asian salad",
+    "category": "Salads",
+    "categoryOrder": 6,
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/Crunchy%20asian%20salad.png?alt=media&token=9557890e-4c05-4b5c-aef5-8e94a70f61ab",
+    "isNew": false,
+    "description": "Shredded napa cabbage, red cabbage, carrots, cucumber, scallions finished with a sesame-ginger soy vinaigrette and fresh cilantro. Vegan, Gluten free, Soy",
+    "price": 1
+  },
+  {
+    "id": "chopped-thai-salad",
+    "slug": "chopped-thai-salad",
+    "name": "Chopped Thai salad",
+    "category": "Salads",
+    "categoryOrder": 6,
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/Thai-Chopped-Salad.jpg?alt=media&token=3ecddd1a-0645-4159-b3c6-5e383c2337ca",
+    "isNew": false,
+    "description": "Chopped romaine, cabbage, carrots, bell peppers, cucumber, fresh herbs, scallions, ginger, and lime sunbutter dressing. Vegan, Gluten free",
     "price": 1
   },
   {
@@ -623,7 +667,7 @@
     "categoryOrder": 6,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/macrobiotic%20salad.png?alt=media&token=26e246b8-7965-4533-b1d0-38a8231a22d3",
     "isNew": false,
-    "description": "Balanced vegetables, grains, and plant-forward nourishment.",
+    "description": "Kale, carrots, cucumber, red cabbage, pickled ginger, green beans, avocado, miso dressing. Vegan, Gluten free, Soy, Sesame",
     "price": 1
   },
   {
@@ -634,7 +678,7 @@
     "categoryOrder": 6,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/ponzu%20salmon%20noodle%20salad.png?alt=media&token=cba88b68-3f9c-492b-873c-a0dfe922ff33",
     "isNew": false,
-    "description": "Cold noodles tossed with ponzu, salmon, and crisp vegetables.",
+    "description": "Cold noodles tossed with ponzu, salmon, and crisp vegetables. Gluten, Fish, Soy",
     "price": 1
   },
   {
@@ -645,7 +689,7 @@
     "categoryOrder": 6,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/Salmon%20Sweet%20Potato%20Detox%20Bowl.png?alt=media&token=5aac1497-9738-4bed-9a1f-57b9f4a8f7ae",
     "isNew": false,
-    "description": "Roasted sweet potatoes, salmon, greens, and clean, vibrant flavors.",
+    "description": "Roasted sweet potatoes, salmon, greens, and clean, vibrant flavors. Gluten free, Fish",
     "price": 1
   },
   {
@@ -656,7 +700,7 @@
     "categoryOrder": 6,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/thai%20tofu%20salad.png?alt=media&token=69f00ffe-354f-44aa-9434-de89231068a9",
     "isNew": false,
-    "description": "Crisp tofu, herbs, and Thai-inspired dressing.",
+    "description": "Crispy Tofu, Chopped romaine, cabbage, carrots, bell peppers, cucumber, fresh herbs, scallions, ginger soy lime dressing. Vegan, Gluten free, Soy",
     "price": 1
   },
   {
@@ -667,7 +711,7 @@
     "categoryOrder": 6,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/vegan%20taco%20salad.png?alt=media&token=6537f325-e4c1-4bee-b6d6-1a35a7b27ef6",
     "isNew": false,
-    "description": "Spiced plant-based filling, fresh greens, and taco-inspired flavors.",
+    "description": "Chipotle black beans, roasted corn, cherry tomatoes, avocado, romaine, cilantro lime vinaigrette. Vegan, Gluten free",
     "price": 1
   },
   {
@@ -678,128 +722,315 @@
     "categoryOrder": 6,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/Wild%20salmon%20salad.png?alt=media&token=eaa2ac8a-fea0-4201-a57c-ae79b0ad53da",
     "isNew": false,
-    "description": "Wild salmon served over fresh greens with bright accompaniments.",
+    "description": "Wild salmon served over fresh greens, pickled red onions, crunchy carrots, toasted pumpkin seeds. Gluten free, Fish",
     "price": 1
   },
   {
     "id": "beet-salad",
     "slug": "beet-salad",
-    "name": "Beet salad",
+    "name": "Beet Salad",
     "category": "Salads",
     "categoryOrder": 6,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/beet%20salad.png?alt=media&token=a4fcaa37-429a-4da1-90b2-c16f734b2ac6",
     "isNew": false,
-    "description": "Tender roasted beets tossed with bright, fresh accents.",
-    "price": 1
-  },
-  {
-    "id": "little-gem-lettuce-salad",
-    "slug": "little-gem-lettuce-salad",
-    "name": "Little Gem Lettuce Salad",
-    "category": "Salads",
-    "categoryOrder": 6,
-    "image": "/images/little-gem-salad.jpg",
-    "isNew": false,
-    "description": "Little gem lettuce with watermelon radish, persian cucumbers, chives, and lemon dill vinaigrette. Gluten free, vegan, kid friendly.",
-    "price": 1
-  },
-  {
-    "id": "baby-kale-salad",
-    "slug": "baby-kale-salad",
-    "name": "Baby Kale Salad",
-    "category": "Salads",
-    "categoryOrder": 6,
-    "image": "/images/baby-kale-salad.jpeg",
-    "isNew": false,
-    "description": "Baby kale with romaine, shredded carrots, cherry tomatoes, avocado, and ginger carrot vinaigrette. Gluten free, vegan.",
-    "price": 1
-  },
-  {
-    "id": "quinoa-salad",
-    "slug": "quinoa-salad",
-    "name": "Quinoa Salad",
-    "category": "Salads",
-    "categoryOrder": 6,
-    "image": "/images/quinoa-salad.webp",
-    "isNew": false,
-    "description": "Quinoa with cucumber, tomatoes, medjool dates, mint, feta, crispy chickpeas, and toasted cumin vinaigrette. Gluten free, vegetarian.",
+    "description": "Tender roasted beets tossed with bright, fresh accents. Vegan, Gluten free",
     "price": 1
   },
   {
     "id": "nicoise-salad",
     "slug": "nicoise-salad",
-    "name": "Nicoise Salad",
+    "name": "Nicoise salad",
     "category": "Salads",
     "categoryOrder": 6,
     "image": "/images/nicoise-salad.png",
     "isNew": false,
-    "description": "Green beans, radish, tomato, potato, gigante beans, hard-boiled egg, olives, and lemon vinaigrette. Gluten free, kid friendly.",
+    "description": "Green beans, radish, tomato, potato, gigante beans, hard-boiled egg, olives, and lemon vinaigrette. Vegetarian, Gluten free, Egg",
     "price": 1
   },
   {
-    "id": "basil-pesto",
-    "slug": "basil-pesto",
-    "name": "Basil pesto",
-    "category": "Sauce",
+    "id": "beet-poke-bowl",
+    "slug": "beet-poke-bowl",
+    "name": "Beet poke bowl",
+    "category": "Bowls and wraps",
     "categoryOrder": 7,
-    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/basil%20pesto.png?alt=media&token=84ad1c3e-3a62-4f12-964a-a68ef71f2337",
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/beet%20poke%20bowl.webp?alt=media&token=f1ff8e4e-7ab8-459e-b52f-5658304c72ef",
     "isNew": false,
-    "description": "Classic basil pesto with olive oil and nuts.",
+    "description": "Sesame soy marinated beets, edamame, pickled carrots, cucumbers, avocado, sriracha aioli. Vegan, Gluten free",
     "price": 1
   },
   {
-    "id": "chimichurri",
-    "slug": "chimichurri",
-    "name": "Chimichurri",
-    "category": "Sauce",
+    "id": "rotisserie-chicken-bowl",
+    "slug": "rotisserie-chicken-bowl",
+    "name": "Rotisserie chicken bowl",
+    "category": "Bowls and wraps",
     "categoryOrder": 7,
-    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/chimichurri%20sauce.png?alt=media&token=0c7bd101-8b83-4043-813e-9a8ba9e55309",
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/rotiserie%20chicken%20bowl.webp?alt=media&token=90526a17-bd6d-45a3-aa2b-50ff1c31449e",
     "isNew": false,
-    "description": "Bright herb sauce with parsley, garlic, and olive oil.",
+    "description": "Rotisserie Chicken, marinated feta & olives, cucumbers, tomatoes, pickled red onions, crispy chickpeas, quinoa pilaf, herb greek yogurt sauce. Gluten Free, Dairy",
+    "price": 1
+  },
+  {
+    "id": "spiced-steak-bowl",
+    "slug": "spiced-steak-bowl",
+    "name": "Spiced steak bowl",
+    "category": "Bowls and wraps",
+    "categoryOrder": 7,
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/spicy%20steak%20bowl.png?alt=media&token=b8f4056e-3fd1-47a0-b583-30ef8eb779c5",
+    "isNew": false,
+    "description": "Cumin spiced steak, roasted corn, black beans, cherry tomatoes, avocado, pickled onions, brown rice, cilantro lime yogurt sauce. Gluten free, Dairy",
+    "price": 1
+  },
+  {
+    "id": "sesame-tofu-noodle-bowl",
+    "slug": "sesame-tofu-noodle-bowl",
+    "name": "Sesame tofu noodle bowl",
+    "category": "Bowls and wraps",
+    "categoryOrder": 7,
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/sesame%20tofu%20noodle%20bowl.png?alt=media&token=4c3c57a3-a806-43b1-b182-b151401b7751",
+    "isNew": false,
+    "description": "Sesame tofu, chilled noodles, shredded carrots, julienned bell peppers, edamame, broccoli, scallions. Vegan, Gluten free, Soy, Sesame",
+    "price": 1
+  },
+  {
+    "id": "chipotle-chicken-wrap",
+    "slug": "chipotle-chicken-wrap",
+    "name": "Chipotle Chicken Wrap",
+    "category": "Bowls and wraps",
+    "categoryOrder": 7,
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/Chipotle-Chicken-Wrap.jpg?alt=media&token=b20afdee-6be8-45dd-9115-9e8d86b2e2b0",
+    "isNew": false,
+    "description": "Grilled chicken, shredded cabbage, roasted corn, avocado, pico de gallo, cilantro yogurt sauce. Gluten free, Dairy",
+    "price": 1
+  },
+  {
+    "id": "harissa-spiced-chickpea-wrap",
+    "slug": "harissa-spiced-chickpea-wrap",
+    "name": "Harissa spiced chickpea wrap",
+    "category": "Bowls and wraps",
+    "categoryOrder": 7,
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/harissa%20chick%20pea%20wrap.png?alt=media&token=88e9b4d2-c391-4bd5-b010-d5f594b431a0",
+    "isNew": false,
+    "description": "Harissa spiced chickpeas, roasted eggplant, cucumber, greens, tahini yogurt. Vegetarian, Gluten free, Dairy",
+    "price": 1
+  },
+  {
+    "id": "chimichurri-steak-wrap",
+    "slug": "chimichurri-steak-wrap",
+    "name": "Chimichurri steak wrap",
+    "category": "Bowls and wraps",
+    "categoryOrder": 7,
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/chimichurri%20steak%20wrap.png?alt=media&token=899ec8fe-fc42-41d5-8412-c981d0e0ad1c",
+    "isNew": false,
+    "description": "Chimichurri steak, arugula, pickled onion, chimichurri, garlic yogurt sauce. Gluten free, Dairy.",
+    "price": 1
+  },
+  {
+    "id": "sweet-potato-and-avocado-wrap",
+    "slug": "sweet-potato-and-avocado-wrap",
+    "name": "Sweet potato and avocado wrap",
+    "category": "Bowls and wraps",
+    "categoryOrder": 7,
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/sweetpotato%20avocado%20wrap.png?alt=media&token=e808abfc-e6d6-4d75-ae3c-1250dab39dfc",
+    "isNew": false,
+    "description": "Sweet potato, avocado, black beans, cabbage, toasted pumpkin seeds, cumin lime vinaigrette. Vegan, Gluten",
     "price": 1
   },
   {
     "id": "greek-yogurt-herb",
     "slug": "greek-yogurt-herb",
     "name": "Greek yogurt herb",
-    "category": "Sauce",
-    "categoryOrder": 7,
+    "category": "Sauces",
+    "categoryOrder": 8,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/greek%20yogurt%20herb.png?alt=media&token=7ec25955-0d52-4407-8de3-e22f644791fd",
     "isNew": false,
-    "description": "Creamy Greek yogurt blended with fresh herbs and lemon.",
+    "description": "Creamy Greek yogurt blended with fresh herbs and lemon. Vegetarian, Dairy",
     "price": 1
   },
   {
-    "id": "tamarind-hoison-sauce",
-    "slug": "tamarind-hoison-sauce",
-    "name": "Tamarind hoison sauce",
-    "category": "Sauce",
-    "categoryOrder": 7,
-    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/tamarind%20hoison%20sauce.png?alt=media&token=8173883b-1468-40f9-8937-2f229a1ff58b",
+    "id": "greek-yogurt-ranch",
+    "slug": "greek-yogurt-ranch",
+    "name": "Greek yogurt ranch",
+    "category": "Sauces",
+    "categoryOrder": 8,
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/greek-yogurt-ranch.jpg?alt=media&token=078513dd-8633-4d10-b004-c2dac6d2dbae",
     "isNew": false,
-    "description": "Sweet-tangy tamarind blended with rich hoisin flavor.",
+    "description": "Protein packed ranch style dressing, fresh herbs, greek yogurt. Vegetarian, Dairy",
     "price": 1
   },
   {
-    "id": "texas-bbq-sauce",
-    "slug": "texas-bbq-sauce",
-    "name": "Texas BBQ sauce",
-    "category": "Sauce",
-    "categoryOrder": 7,
-    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/texas%20bbq%20sauce.png?alt=media&token=d31ea4c5-05f9-4d1b-87c8-5a8ed9c98931",
+    "id": "greek-yogurt-remoulade",
+    "slug": "greek-yogurt-remoulade",
+    "name": "Greek yogurt remoulade",
+    "category": "Sauces",
+    "categoryOrder": 8,
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/greek%20yogurt%20remolaude.webp?alt=media&token=f6f6b02b-6498-475a-af55-5a5952b87bfd",
     "isNew": false,
-    "description": "Bold, smoky barbecue sauce with a touch of sweetness.",
+    "description": "Greek yogurt, dijon mustard, capers, cornichons, lemon juice, garlic, fresh herbs, paprika. Vegetarian, Gluten free",
+    "price": 1
+  },
+  {
+    "id": "basil-pesto",
+    "slug": "basil-pesto",
+    "name": "Basil pesto",
+    "category": "Sauces",
+    "categoryOrder": 8,
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/basil%20pesto.png?alt=media&token=f51165f3-175a-4172-9f97-6847beb31add",
+    "isNew": false,
+    "description": "Basil, garlic, pine nuts, parmesan, lemon juice, olive oil, salt. Vegetarian, Gluten free, Dairy, Tree nuts",
+    "price": 1
+  },
+  {
+    "id": "basil-nut-free-pesto",
+    "slug": "basil-nut-free-pesto",
+    "name": "Basil nut-free pesto",
+    "category": "Sauces",
+    "categoryOrder": 8,
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/basil%20nut%20free%20pesto.png?alt=media&token=cde4fee3-70f5-4093-998a-a177134c756c",
+    "isNew": false,
+    "description": "Basil, garlic, sunflower seeds, parmesan, lemon juice, olive oil, salt. Vegetarian, Gluten free, Dairy",
+    "price": 1
+  },
+  {
+    "id": "chimichurri",
+    "slug": "chimichurri",
+    "name": "Chimichurri",
+    "category": "Sauces",
+    "categoryOrder": 8,
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/chimichurri%20sauce.png?alt=media&token=0c7bd101-8b83-4043-813e-9a8ba9e55309",
+    "isNew": false,
+    "description": "Bright herb sauce with parsley, garlic, and olive oil. Vegan, Gluten free",
     "price": 1
   },
   {
     "id": "tomato-basil-marinara",
     "slug": "tomato-basil-marinara",
     "name": "Tomato basil marinara",
-    "category": "Sauce",
-    "categoryOrder": 7,
+    "category": "Sauces",
+    "categoryOrder": 8,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/tomato%20basil.png?alt=media&token=26feb0e9-a629-41e9-93f3-c6c58e84331c",
     "isNew": false,
-    "description": "Slow-simmered tomato sauce with fresh basil.",
+    "description": "Slow-simmered tomato sauce with fresh basil. Vegan, Gluten free",
+    "price": 1
+  },
+  {
+    "id": "tamarind-hoison-sauce",
+    "slug": "tamarind-hoison-sauce",
+    "name": "Tamarind hoison sauce",
+    "category": "Sauces",
+    "categoryOrder": 8,
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/tamarind%20hoison%20sauce.png?alt=media&token=8173883b-1468-40f9-8937-2f229a1ff58b",
+    "isNew": false,
+    "description": "Sweet-tangy tamarind blended with rich hoisin flavor. Vegan, Gluten free",
+    "price": 1
+  },
+  {
+    "id": "harissa",
+    "slug": "harissa",
+    "name": "Harissa",
+    "category": "Sauces",
+    "categoryOrder": 8,
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/harissa%20sauce.png?alt=media&token=47b58c21-de27-4b88-aabb-2575ab782e78",
+    "isNew": false,
+    "description": "Roasted red peppers, dried chilies, garlic, olive oil, cumin, coriander, caraway, finished with lemon juice. Vegan, Gluten free",
+    "price": 1
+  },
+  {
+    "id": "teriyaki-sauce",
+    "slug": "teriyaki-sauce",
+    "name": "Teriyaki",
+    "category": "Sauces",
+    "categoryOrder": 8,
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/teriyaki%20sauce.jpg?alt=media&token=30f79f09-8c38-458e-a350-982de07ccb44",
+    "isNew": false,
+    "description": "Savory-sweet glaze made with pineapple, soy sauce, mirin, brown sugar, fresh ginger, garlic, sesame oil. Vegan, Gluten free, Soy, Sesame, Alcohol",
+    "price": 1
+  },
+  {
+    "id": "bbq-sauce",
+    "slug": "bbq-sauce",
+    "name": "BBQ sauce",
+    "category": "Sauces",
+    "categoryOrder": 8,
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/bbq%20sauce.png?alt=media&token=0c671e70-5629-44fd-9fc3-873ca227e127",
+    "isNew": false,
+    "description": "Tomato, brown sugar, apple cider vinegar, smoked paprika, garlic, onion, spices, creating a sweet, tangy, and smoky finish. Vegan, Gluten free",
+    "price": 1
+  },
+  {
+    "id": "fresh-hummus-and-veggie-sticks",
+    "slug": "fresh-hummus-and-veggie-sticks",
+    "name": "Fresh hummus & veggie sticks",
+    "category": "Snacks",
+    "categoryOrder": 9,
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/fresh%20hummus%20and%20veggie%20sticks.webp?alt=media&token=5f1f6c0f-f6d6-4541-bd7b-cf5b11925313",
+    "isNew": false,
+    "description": "Creamy hummus blended with chickpeas, tahini, lemon juice, garlic, and olive oil, served with crisp seasonal vegetable sticks. Vegan, Gluten free, Sesame",
+    "price": 1
+  },
+  {
+    "id": "coconut-and-sunbutter-energy-bites",
+    "slug": "coconut-and-sunbutter-energy-bites",
+    "name": "Coconut and sunbutter energy bites",
+    "category": "Snacks",
+    "categoryOrder": 9,
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/coconut%20and%20sunbutter%20energy%20bites.webp?alt=media&token=b12738ba-5924-4c8d-ad50-107788c5fb11",
+    "isNew": false,
+    "description": "Oats, sunflower seed butter, shredded coconut, honey, vanilla, and chia seeds. Vegan, Gluten free",
+    "price": 1
+  },
+  {
+    "id": "chocolate-chip-and-sunbutter-energy-bites",
+    "slug": "chocolate-chip-and-sunbutter-energy-bites",
+    "name": "Chocolate chip and sunbutter energy bites",
+    "category": "Snacks",
+    "categoryOrder": 9,
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/chocolate%20chips%20sunbutter%20energy%20bites.jpg?alt=media&token=340c12e4-0433-4b95-b476-361968ac4c78",
+    "isNew": false,
+    "description": "Oats, sunflower seed butter, honey, vanilla, flaxseed, chocolate chips. Vegetarian, Gluten free",
+    "price": 1
+  },
+  {
+    "id": "yogurt-bark-with-berries",
+    "slug": "yogurt-bark-with-berries",
+    "name": "Yogurt bark with berries",
+    "category": "Snacks",
+    "categoryOrder": 9,
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/yogurt%20bark%20with%20berries.jpg?alt=media&token=2fa2205a-f527-4abc-a39a-05e0f72b2df0",
+    "isNew": false,
+    "description": "Frozen creamy greek yogurt, strawberries, blueberries, granola. Vegetarian, Gluten free",
+    "price": 1
+  },
+  {
+    "id": "crispy-chickpea-snack-mix",
+    "slug": "crispy-chickpea-snack-mix",
+    "name": "Crispy chickpea snack mix",
+    "category": "Snacks",
+    "categoryOrder": 9,
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/crispy%20chickpea%20snack%20mix.webp?alt=media&token=2d461c8b-b8bc-4fc1-8bd1-e0b3b436930c",
+    "isNew": false,
+    "description": "Roasted chickpeas tossed with olive oil, sea salt, and warm spices. Vegan, Gluten free",
+    "price": 1
+  },
+  {
+    "id": "honest-uncrustable-with-sunbutter-and-homemade-jam",
+    "slug": "honest-uncrustable-with-sunbutter-and-homemade-jam",
+    "name": "Honest uncrustable with sunbutter and homemade jam",
+    "category": "Snacks",
+    "categoryOrder": 9,
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/honest%20uncrustable%20with%20sunbutter%20and%20homemade%20jam.png?alt=media&token=c70bd349-1bd4-4e2e-ac50-6cb2c45d2bcc",
+    "isNew": false,
+    "description": "Whole wheat bread, sunbutter, housemade strawberry jam. Vegetarian, Gluten",
+    "price": 1
+  },
+  {
+    "id": "homemade-cheese-crackers",
+    "slug": "homemade-cheese-crackers",
+    "name": "Homemade cheese crackers",
+    "category": "Snacks",
+    "categoryOrder": 9,
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/homemade%20cheese%20crackers.jpg?alt=media&token=632dd0d2-4413-45b2-9a74-d850110d8a17",
+    "isNew": false,
+    "description": "Crisp, golden crackers baked with real cheddar cheese, butter, and whole grain flour, finished with a touch of sea salt. Vegetarian, Gluten, Dairy",
     "price": 1
   },
   {
@@ -807,10 +1038,10 @@
     "slug": "baklava-greek-frozen-yogurt",
     "name": "Baklava greek frozen yogurt",
     "category": "Greek Frozen Yogurt",
-    "categoryOrder": 8,
+    "categoryOrder": 10,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/Baklava%20greek%20frozen%20yogurt.png?alt=media&token=affe184b-fb13-42e1-baf4-361120c66d46",
     "isNew": false,
-    "description": "Naturally high protein and rich in flavor, Greek frozen yogurt with baklava",
+    "description": "Naturally high protein and rich in flavor, Greek frozen yogurt with baklava. Vegetarian, Gluten, Dairy",
     "price": 1
   },
   {
@@ -818,10 +1049,10 @@
     "slug": "banana-crumble-greek-yogurt-greek-frozen-yogurt",
     "name": "Banana crumble greek yogurt greek frozen yogurt",
     "category": "Greek Frozen Yogurt",
-    "categoryOrder": 8,
+    "categoryOrder": 10,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/Banana%20crumble%20greek%20yogurt.png?alt=media&token=d7161a91-87e8-4523-82a9-335520e947cb",
     "isNew": false,
-    "description": "Naturally high protein and rich in flavor, Greek frozen yogurt with bananas and cookie crumble",
+    "description": "Naturally high protein and rich in flavor, Greek frozen yogurt with bananas and cookie crumble. Vegetarian, Gluten, Dairy",
     "price": 1
   },
   {
@@ -829,10 +1060,10 @@
     "slug": "berries-and-honey-greek-frozen-yogurt",
     "name": "Berries and honey greek frozen yogurt",
     "category": "Greek Frozen Yogurt",
-    "categoryOrder": 8,
+    "categoryOrder": 10,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/Berries%20and%20honey.png?alt=media&token=11a52e48-1143-45f7-9d72-1e3aac76ab4c",
     "isNew": false,
-    "description": "Naturally high protein and rich in flavor, Greek frozen yogurt with seasonal fresh berries and lightly sweetened with honey",
+    "description": "Naturally high protein and rich in flavor, Greek frozen yogurt with seasonal fresh berries and lightly sweetened with honey. Vegetarian, Gluten free, Dairy",
     "price": 1
   },
   {
@@ -840,10 +1071,10 @@
     "slug": "fig,-honey-and-granola-greek-frozen-yogurt",
     "name": "Fig, honey & granola greek frozen yogurt",
     "category": "Greek Frozen Yogurt",
-    "categoryOrder": 8,
+    "categoryOrder": 10,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/Fig%2C%20honey%20%26%20granola.png?alt=media&token=0f79ec35-c363-4b88-88ed-3b788343d18d",
     "isNew": false,
-    "description": "Naturally high protein and rich in flavor, Greek frozen yogurt with fresh figs, crunchy granola and honey",
+    "description": "Naturally high protein and rich in flavor, Greek frozen yogurt with fresh figs, crunchy granola and honey. Vegetarian, Gluten free, Dairy",
     "price": 1
   }
 ]
