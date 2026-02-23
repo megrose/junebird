@@ -119,7 +119,7 @@ const ProductDetail = () => {
               <div className="text-2xl font-light text-foreground mb-6">
                 ${product.price.toFixed(2)}
               </div>
-              <p className="text-neutral-500 text-md leading-relaxed max-w-lg">
+              <p className="text-neutral-500 text-md leading-relaxed max-w-lg whitespace-pre-line">
                 {product.description}
               </p>
             </div>
