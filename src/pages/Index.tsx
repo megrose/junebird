@@ -11,15 +11,15 @@ const INITIAL_LOAD = 6;
 const LOAD_MORE_COUNT = 6;
 
 const Index = () => {
-  const [searchParams] = useSearchParams();
+  const [searchParams, setSearchParams] = useSearchParams();
   const variant = searchParams.get("v") === "b" ? "b" : "a";
-  const [activeCategory, setActiveCategory] = useState<string | null>(null);
+  const activeCategory = searchParams.get("category") || null;
   const [visibleCount, setVisibleCount] = useState(INITIAL_LOAD);
   const { menuItems, categories, loading, error } = useMenuData();
 
   useEffect(() => {
     const handleHome = () => {
-      setActiveCategory(null);
+      setSearchParams(prev => { const n = new URLSearchParams(prev); n.delete("category"); return n; });
       setVisibleCount(INITIAL_LOAD);
       window.scrollTo({ top: 0, behavior: "instant" });
     };
@@ -39,13 +39,13 @@ const Index = () => {
   }, [activeCategory, menuItems]);
 
   const handleCategoryClick = (category: string) => {
-    setActiveCategory(category);
+    setSearchParams(prev => { const n = new URLSearchParams(prev); n.set("category", category); return n; });
     setVisibleCount(INITIAL_LOAD);
     window.scrollTo({ top: 0, behavior: "instant" });
   };
 
   const handleBackToCategories = () => {
-    setActiveCategory(null);
+    setSearchParams(prev => { const n = new URLSearchParams(prev); n.delete("category"); return n; });
   };
 
   return (
