@@ -13,7 +13,11 @@ const Checkout = () => {
 
     const [isSubmitted, setIsSubmitted] = useState(false);
     const [formData, setFormData] = useState({
-        name: ""
+        name: "",
+        email: "",
+        zip: "",
+        frequency: "",
+        shopMore: "",
     });
 
     const handleSubmit = async (e: React.FormEvent) => {
@@ -32,6 +36,10 @@ const Checkout = () => {
                     // 1. Firebase Save
                     const firebasePromise = addDoc(collection(db, "order_records"), {
                         customerName: formData.name,
+                        email: formData.email,
+                        zip: formData.zip,
+                        frequency: formData.frequency,
+                        shopMore: formData.shopMore,
                         itemName: item.name,
                         quantity: item.quantity,
                         category: item.category,
@@ -45,6 +53,10 @@ const Checkout = () => {
                         mode: "no-cors", // Use no-cors to avoid preflight issues with Zapier hooks
                         body: JSON.stringify({
                             Name: formData.name,
+                            Email: formData.email,
+                            Zip: formData.zip,
+                            Frequency: formData.frequency,
+                            ShopMore: formData.shopMore,
                             Timestamp: now,
                             Item: item.name,
                             Quantity: item.quantity,
@@ -198,6 +210,67 @@ const Checkout = () => {
                                 onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                                 placeholder="e.g. Junie Bird"
                                 className="w-full bg-background border border-border px-4 py-3 focus:outline-none focus:border-primary transition-colors text-foreground"
+                            />
+                        </div>
+
+                        <div className="flex flex-col gap-2">
+                            <label htmlFor="email" className="text-xs font-bold uppercase tracking-widest text-muted-foreground">
+                                Email <span className="font-normal normal-case tracking-normal text-muted-foreground/60">(optional)</span>
+                            </label>
+                            <input
+                                id="email"
+                                type="email"
+                                value={formData.email}
+                                onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                                placeholder="you@example.com"
+                                className="w-full bg-background border border-border px-4 py-3 focus:outline-none focus:border-primary transition-colors text-foreground"
+                            />
+                        </div>
+
+                        <div className="flex flex-col gap-2">
+                            <label htmlFor="zip" className="text-xs font-bold uppercase tracking-widest text-muted-foreground">
+                                Zip Code <span className="font-normal normal-case tracking-normal text-muted-foreground/60">(optional)</span>
+                            </label>
+                            <input
+                                id="zip"
+                                type="text"
+                                value={formData.zip}
+                                onChange={(e) => setFormData({ ...formData, zip: e.target.value })}
+                                placeholder="e.g. 94103"
+                                className="w-full bg-background border border-border px-4 py-3 focus:outline-none focus:border-primary transition-colors text-foreground"
+                            />
+                        </div>
+
+                        <div className="flex flex-col gap-2">
+                            <label htmlFor="frequency" className="text-xs font-bold uppercase tracking-widest text-muted-foreground">
+                                How often would you likely shop or order with Junebird based on this offering?
+                            </label>
+                            <select
+                                id="frequency"
+                                value={formData.frequency}
+                                onChange={(e) => setFormData({ ...formData, frequency: e.target.value })}
+                                className="w-full bg-background border border-border px-4 py-3 focus:outline-none focus:border-primary transition-colors text-foreground"
+                            >
+                                <option value="">Select an option</option>
+                                <option value="Weekly">Weekly</option>
+                                <option value="Every 2 weeks">Every 2 weeks</option>
+                                <option value="Monthly">Monthly</option>
+                                <option value="Occasionally">Occasionally</option>
+                                <option value="Not sure yet">Not sure yet</option>
+                            </select>
+                        </div>
+
+                        <div className="flex flex-col gap-2">
+                            <label htmlFor="shopMore" className="text-xs font-bold uppercase tracking-widest text-muted-foreground">
+                                What would make you shop or order more often with Junebird?
+                            </label>
+                            <textarea
+                                id="shopMore"
+                                value={formData.shopMore}
+                                onChange={(e) => setFormData({ ...formData, shopMore: e.target.value })}
+                                placeholder="Share your thoughts..."
+                                rows={3}
+                                className="w-full bg-background border border-border px-4 py-3 focus:outline-none focus:border-primary transition-colors text-foreground resize-none"
                             />
                         </div>
 
