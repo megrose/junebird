@@ -6,7 +6,7 @@ const Footer = () => {
           <div>
             <h3 className="font-heading text-2xl font-semibold mb-4">Junebird</h3>
             <p className="text-primary-foreground/70 text-sm leading-relaxed">
-              Good, clean food for all. An extension of Junebird, the modern lifestyle brand.
+              Food you look forward to. Ingredients you can trust, flavors you'll love, ready to go.
             </p>
           </div>
           <div>
