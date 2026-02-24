@@ -60,7 +60,7 @@ const Index = () => {
           Food you look forward to.
         </h1>
         <p className="font-heading text-2xl md:text-3xl lg:text-4xl font-light text-muted-foreground">
-          Ingredients you can trust, flavors you'll love, ready to go.
+          Ingredients you can trust and flavors you'll love. Ready to go.
         </p>
       </section>
 
