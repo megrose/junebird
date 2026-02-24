@@ -140,7 +140,7 @@ const Checkout = () => {
                             className="space-y-4"
                         >
                             <p className="text-muted-foreground text-lg">
-                                Your order for <span className="font-semibold text-foreground">{items.length} items</span> has been placed successfully.
+                                Your input is so helpful! We hope you have a great day & look forward to seeing you at a Junebird soon!
                             </p>
                             <div className="h-px w-12 bg-border mx-auto my-6" />
                         </motion.div>
@@ -152,7 +152,7 @@ const Checkout = () => {
                             onClick={handleBackToMenu}
                             className="bg-primary text-primary-foreground px-10 py-4 rounded-none text-xs font-bold uppercase tracking-[0.3em] hover:opacity-90 transition-all mt-10 w-full hover:scale-[1.02] active:scale-[0.98]"
                         >
-                            Explore More Menu
+                            Share Junebird with a friend
                         </motion.button>
                     </div>
                 </motion.div>
@@ -278,7 +278,7 @@ const Checkout = () => {
                             type="submit"
                             className="bg-primary text-primary-foreground px-8 py-4 rounded-none text-sm font-bold uppercase tracking-[0.2em] hover:opacity-90 transition-opacity w-full mt-4"
                         >
-                            Place My Order
+                            Submit My Order
                         </button>
                     </form>
                 </div>
