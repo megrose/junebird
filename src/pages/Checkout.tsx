@@ -140,7 +140,7 @@ const Checkout = () => {
                             className="space-y-4"
                         >
                             <p className="text-muted-foreground text-lg">
-                                We appreciate you! See you soon <3
+                                We appreciate you! See you soon &lt;3
                             </p>
                             <div className="h-px w-12 bg-border mx-auto my-6" />
                         </motion.div>
@@ -243,7 +243,7 @@ const Checkout = () => {
 
                         <div className="flex flex-col gap-2">
                             <label htmlFor="frequency" className="text-xs font-bold uppercase tracking-widest text-muted-foreground">
-                                How often would you likely shop or order with Junebird based on this offering?
+                                Based on the offering currently available, how often would you likely shop or order with Junebird?
                             </label>
                             <select
                                 id="frequency"
