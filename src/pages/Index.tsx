@@ -56,10 +56,10 @@ const Index = () => {
     >
       {/* Hero Heading */}
       <section className="max-w-7xl mx-auto px-6 pt-16 pb-8 text-center">
-        <h1 className="font-heading text-6xl md:text-7xl lg:text-8xl font-light text-foreground mb-4 tracking-tight">
+        <h1 className="font-heading text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-2 tracking-tight">
           Food you look forward to.
         </h1>
-        <p className="font-heading text-2xl md:text-3xl lg:text-4xl font-light text-muted-foreground">
+        <p className="font-heading text-lg md:text-xl lg:text-2xl font-light text-muted-foreground">
           Ingredients you can trust, flavors you'll love, ready to go.
         </p>
       </section>
