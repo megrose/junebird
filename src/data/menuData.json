@@ -418,6 +418,17 @@
     "price": 1
   },
   {
+    "id": "margherita-naanza",
+    "slug": "margherita-naanza",
+    "name": "Margherita naanza",
+    "category": "Naan Pizza",
+    "categoryOrder": 4,
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/cheese%20naanza.png?alt=media&token=a654f22e-1abe-43e7-9228-13317d35dbb5",
+    "isNew": false,
+    "description": "Tomato sauce, mozzarella, and fresh basil on warm naan.  Vegetarian, Gluten free, Dairy",
+    "price": 1
+  },
+  {
     "id": "veggie-curry-naan-pizza",
     "slug": "veggie-curry-naan-pizza",
     "name": "Veggie curry naan pizza",
@@ -437,17 +448,6 @@
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/green%20goddess%20naan%20pizza.png?alt=media&token=699f566a-9a56-4a55-ab9c-e87a0ef14347",
     "isNew": false,
     "description": "Creamy green goddess sauce, vegetables, and melty cheese. Vegetarian, Gluten free, Dairy",
-    "price": 1
-  },
-  {
-    "id": "margherita-naanza",
-    "slug": "margherita-naanza",
-    "name": "Margherita naanza",
-    "category": "Naan Pizza",
-    "categoryOrder": 4,
-    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/cheese%20naanza.png?alt=media&token=a654f22e-1abe-43e7-9228-13317d35dbb5",
-    "isNew": false,
-    "description": "Tomato sauce, mozzarella, and fresh basil on warm naan.  Vegetarian, Gluten free, Dairy",
     "price": 1
   },
   {
@@ -1050,7 +1050,7 @@
     "name": "Crispy chickpea snack mix",
     "category": "Snacks",
     "categoryOrder": 8,
-    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/crispy%20chickpea%20snack%20mix.webp?alt=media&token=2d461c8b-b8bc-4fc1-8bd1-e0b3b436930c",
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/chickpea.png?alt=media&token=c526449a-e192-4b4d-ab02-e8436197ffff",
     "isNew": false,
     "description": "Roasted chickpeas tossed with olive oil, sea salt, and warm spices. Vegan, Gluten free",
     "price": 0
@@ -1061,7 +1061,7 @@
     "name": "Honest uncrustable with sunbutter and homemade jam",
     "category": "Snacks",
     "categoryOrder": 8,
-    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/honest%20uncrustable%20with%20sunbutter%20and%20homemade%20jam.png?alt=media&token=c70bd349-1bd4-4e2e-ac50-6cb2c45d2bcc",
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/uncrustable.png?alt=media&token=594f8000-efb3-4fc5-a132-3a126b2842b1",
     "isNew": false,
     "description": "Whole wheat bread, sunbutter, housemade strawberry jam. Vegetarian, Gluten",
     "price": 0
