@@ -225,7 +225,7 @@
     "name": "Roasted brussel sprouts",
     "category": "Veggies",
     "categoryOrder": 2,
-    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/Roasted%20Brussels%20Sprouts.jpg?alt=media&token=5455d912-8896-4897-80c5-7e04addbb37c",
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/brussel%20sprouts.png?alt=media&token=3dae79b0-b464-46fb-95f2-dc7f037f9f1d",
     "isNew": false,
     "description": "Crisp, golden Brussels sprouts with deep roasted flavor. Vegan, Gluten free",
     "price": 1
@@ -236,7 +236,7 @@
     "name": "Roasted carrots",
     "category": "Veggies",
     "categoryOrder": 2,
-    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/roasted%20carrots.png?alt=media&token=aec9a02c-2709-4cea-ba1d-73c8c5128e4d",
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/carrots.png?alt=media&token=aa6c417e-e5c9-4b80-ad6b-e00ab8e13cad",
     "isNew": false,
     "description": "Slow-roasted carrots with natural sweetness and golden edges. Vegan, Gluten free",
     "price": 1
@@ -250,17 +250,6 @@
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/half%20perfect%20avocado.png?alt=media&token=faa5e468-0c84-4ce2-9806-786d0df7d386",
     "isNew": false,
     "description": "Ripe, creamy avocado served simply. Vegan, Gluten free",
-    "price": 1
-  },
-  {
-    "id": "sliced-cucumbers",
-    "slug": "sliced-cucumbers",
-    "name": "Sliced cucumbers",
-    "category": "Veggies",
-    "categoryOrder": 2,
-    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/sliced%20cucumbers.png?alt=media&token=79fd5c84-3353-4e40-b662-b09510ce221b",
-    "isNew": false,
-    "description": "Fresh, crisp cucumbers ‚Äî clean and refreshing. Vegan, Gluten free",
     "price": 1
   },
   {
@@ -379,7 +368,7 @@
     "name": "Steamed jasmine rice",
     "category": "Grains",
     "categoryOrder": 3,
-    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/steamed%20jasmine%20rice.png?alt=media&token=a1b0b8f2-abbd-468f-9160-74e74f09a491",
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/jasmine%20rice.png?alt=media&token=a655f93d-0ea0-4bcc-9e38-9e83a4cadf0b",
     "isNew": false,
     "description": "Light, fluffy jasmine rice steamed to perfection. Vegan, Gluten free",
     "price": 1
@@ -401,7 +390,7 @@
     "name": "Macaroni & Cheese",
     "category": "Grains",
     "categoryOrder": 3,
-    "image": "/images/macaroni-cheese.jpg",
+    "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/mac%20and%20cheese.png?alt=media&token=b6e55904-2c37-4813-8891-e0038378ea81",
     "isNew": false,
     "description": "Elbow pasta in a rich aged cheddar sauce. Vegetarian, Gluten, Dairy",
     "price": 1
@@ -535,7 +524,7 @@
     "categoryOrder": 5,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/nana_s%20chicken%20noodle%20soup.png?alt=media&token=a11cb5e7-cb73-4bfc-9226-db20f3d1a926",
     "isNew": false,
-    "description": "Classic comfort ‚Äî tender chicken, noodles, and rich broth. Gluten, Egg",
+    "description": "Classic comfort. Tender chicken, noodles, and rich broth. Gluten, Egg",
     "price": 1
   },
   {
@@ -1074,7 +1063,7 @@
     "categoryOrder": 8,
     "image": "https://firebasestorage.googleapis.com/v0/b/junebird-5846d.firebasestorage.app/o/cucumbers.png?alt=media&token=92ba851e-dc72-4d3b-8cca-bcc9345d315a",
     "isNew": false,
-    "description": "Fresh, crisp cucumbers ‚Äî clean and refreshing. Vegan, Gluten free",
+    "description": "Fresh, crisp cucumbersm ready to crunch on. Vegan, Gluten free",
     "price": 1
   },
   {
