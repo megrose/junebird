@@ -88,14 +88,14 @@ const ProductDetail = () => {
     >
       <main className="max-w-7xl mx-auto px-6 py-12">
         <button
-          onClick={() => navigate(`/${qs}`)}
+          onClick={() => navigate(`/?category=${encodeURIComponent(product.category)}${v ? `&v=${v}` : ''}`)}
           className="flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors mb-8 group"
         >
           <ChevronLeft
             size={16}
             className="group-hover:-translate-x-1 transition-transform"
           />
-          Back to Menu
+          Back to {product.category}
         </button>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
