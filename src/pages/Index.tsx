@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { useMenuData } from "@/hooks/useMenuData";
 import { Skeleton } from "@/components/ui/skeleton";
 import { ArrowLeft } from "lucide-react";
+import WelcomeModal from "@/components/WelcomeModal";
 
 const INITIAL_LOAD = 6;
 const LOAD_MORE_COUNT = 6;
@@ -55,6 +56,7 @@ const Index = () => {
       transition={{ duration: 0.4, ease: "easeOut" }}
       className="flex-1"
     >
+      <WelcomeModal />
       {/* Hero Heading */}
       <section className="max-w-7xl mx-auto px-6 pt-16 pb-8 text-center">
         <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-3 tracking-tight">
