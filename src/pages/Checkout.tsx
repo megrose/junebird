@@ -140,7 +140,7 @@ const Checkout = () => {
                             className="space-y-4"
                         >
                             <p className="text-muted-foreground text-lg">
-                                Your input is so helpful! We hope you have a great day & look forward to seeing you at a Junebird soon!
+                                We appreciate you! See you soon <3
                             </p>
                             <div className="h-px w-12 bg-border mx-auto my-6" />
                         </motion.div>
@@ -256,6 +256,7 @@ const Checkout = () => {
                                 <option value="Every 2 weeks">Every 2 weeks</option>
                                 <option value="Monthly">Monthly</option>
                                 <option value="Occasionally">Occasionally</option>
+                                <option value="Rarely/Never">Rarely/Never</option>
                                 <option value="Not sure yet">Not sure yet</option>
                             </select>
                         </div>
