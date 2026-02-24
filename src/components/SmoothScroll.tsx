@@ -23,11 +23,11 @@ const SmoothScroll = ({ children }: SmoothScrollProps) => {
         <ReactLenis
             root
             options={{
-                lerp: 0.1, // Increased lerp for more responsiveness
+                lerp: 0.1,
                 duration: 1.2,
                 wheelMultiplier: 1,
                 smoothWheel: true,
-                syncTouch: true,
+                syncTouch: false,
             }}
         >
             {children}
