@@ -22,7 +22,7 @@ const WelcomeModal = () => {
                         Thank you for helping us bring Junebird to life! Junebird is a premium neighborhood prepared foods market with ingredients you trust and flavors you'll love. Our mission is to make it easy to eat well, any night of the week.
                     </p>
                     <p>
-                        We're testing our menu and would love your honest input. Browse what we have to offer and place an order as if you were stocking up for yourself and your household this week — what would you actually buy?
+                        We're testing our concept and would love your honest input. Browse what we have to offer and place an order as if you were stocking up for yourself and your household this week — what would you actually buy?
                     </p>
                     <p>
                         Add your email at checkout to be first in line for our grand opening and future events. Thank you for being part of this!
@@ -32,7 +32,7 @@ const WelcomeModal = () => {
                     onClick={() => setOpen(false)}
                     className="mt-6 w-full px-6 py-3 bg-primary text-primary-foreground text-sm font-medium uppercase tracking-widest hover:opacity-90 transition-opacity"
                 >
-                    Browse the Menu
+                    Get Started!
                 </button>
             </DialogContent>
         </Dialog>
