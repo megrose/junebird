@@ -7,7 +7,12 @@ import {
 } from "@/components/ui/dialog";
 
 const WelcomeModal = () => {
-    const [open, setOpen] = useState(true);
+    const [open, setOpen] = useState(() => !sessionStorage.getItem("welcomed"));
+
+    const handleClose = () => {
+        sessionStorage.setItem("welcomed", "1");
+        setOpen(false);
+    };
 
     return (
         <Dialog open={open} onOpenChange={setOpen}>
@@ -29,7 +34,7 @@ const WelcomeModal = () => {
                     </p>
                 </div>
                 <button
-                    onClick={() => setOpen(false)}
+                    onClick={handleClose}
                     className="mt-6 w-full px-6 py-3 bg-primary text-primary-foreground text-sm font-medium uppercase tracking-widest hover:opacity-90 transition-opacity"
                 >
                     Get Started!
