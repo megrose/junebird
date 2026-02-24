@@ -20,7 +20,7 @@ const Index = () => {
     const handleHome = () => {
       setActiveCategory(null);
       setVisibleCount(INITIAL_LOAD);
-      window.scrollTo({ top: 0, behavior: "smooth" });
+      window.scrollTo({ top: 0, behavior: "instant" });
     };
     window.addEventListener("junebird:home", handleHome);
     return () => window.removeEventListener("junebird:home", handleHome);
@@ -40,6 +40,7 @@ const Index = () => {
   const handleCategoryClick = (category: string) => {
     setActiveCategory(category);
     setVisibleCount(INITIAL_LOAD);
+    window.scrollTo({ top: 0, behavior: "instant" });
   };
 
   const handleBackToCategories = () => {
@@ -60,7 +61,7 @@ const Index = () => {
           Food you look forward to.
         </h1>
         <p className="font-heading text-2xl md:text-3xl lg:text-4xl font-light text-muted-foreground">
-          Ingredients you can trust and flavors you'll love. Ready to go.
+          Ingredients you trust and flavors you'll love. Ready to go.
         </p>
       </section>
 
